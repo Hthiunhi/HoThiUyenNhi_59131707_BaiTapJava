@@ -9,8 +9,7 @@ package BaiTap3;
  *
  * @author Acer
  */
-public class SinhVienBiz extends SinhVienPoly{
-    
+public class SinhVienBiz extends SinhVienPoly{  
   public double DiemMarketing;
   public double DiemSales;
 

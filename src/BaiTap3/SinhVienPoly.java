@@ -21,22 +21,22 @@ public class SinhVienPoly {
 
   // get hoc luc
   public String getHocluc() {
-    if (this.getDiem() < 5) {
+    if (this.getDiem() < 5)
       return "Yeu";
-    }
-    if (this.getDiem() < 6.5) {
+    if (this.getDiem() < 6.5)
       return "Trung binh";
-    }
-    if (this.getDiem() < 7.5) {
+    if (this.getDiem() < 7.5)
       return "Kha";
-    }
-    if (this.getDiem() < 9) {
+    if (this.getDiem() < 9)
       return "Gioi";
-    }
     return "Xuat sac";
   }
 
    public void Xuat() {
      System.out.println("Ho ten: " + this.HoTen + "Nganh hoc: " + this.NganhHoc );
    }
+
+    String getHocLuc() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
